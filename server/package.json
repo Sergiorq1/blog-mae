@@ -1,0 +1,12 @@
+{
+  "scripts": {
+    "start": "node server.js",
+    "build": "npm install",
+    "dev": "npm run build && npm start"
+  },
+  "dependencies": {
+    "dotenv": "^16.0.1",
+    "express": "^4.18.1",
+    "node": "^17.7.2"
+  }
+}
