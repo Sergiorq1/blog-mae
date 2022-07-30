@@ -13,32 +13,43 @@ function Navbar() {
   return (
   <>
     <nav className='navbar' id='/#'>
-        <div className="navbar-container">
+        <div className="navbar-container-a">
             <Link to='/#' className='navbar-logo' onClick={closeMobileMenu}>
-                <i class="fas fa-record-vinyl"></i>
+                <img src="WholeLogo.png"></img>
             </Link>
+        </div>
             <div className='menu-icon' onClick={handleClick}>
                 <i className={click ? 'fas fa-times' : 'fas fa-bars'}/>
             </div>
+        <div className='navbar-container-b'>
             <ul className={click ? 'nav-menu active' : 'nav-menu'}>
                 <li className='nav-item'> 
-                    <Link to='/background' className='nav-links' onClick={closeMobileMenu}>
-                        About Me
+                    <Link to='/' className='nav-links' onClick={closeMobileMenu}>
+                        Home
                     </Link>
                 </li>
                 <li className='nav-item'> 
-                    <Link to='/#projects' className='nav-links' onClick={closeMobileMenu}>
-                        Projects
+                    <Link to='/' className='nav-links' onClick={closeMobileMenu}>
+                        Bookmark
                     </Link>
                 </li>
                 <li className='nav-item'> 
-                    <Link to='/#contact' className='nav-links' onClick={closeMobileMenu}>
-                        Contact Me
+                    <Link to='/Profile/#posts' className='nav-links' onClick={closeMobileMenu}>
+                        Your posts
                     </Link>
                 </li>
                 <li className='nav-item'> 
-                    <Link to='/#links' className='nav-links' onClick={closeMobileMenu}>
-                        Links
+                    <Link to='/NewPost' className='nav-links' onClick={closeMobileMenu}>
+                        New Post
+                    </Link>
+                </li>  
+            </ul>
+        </div>
+        <div className='navbar-container-c'>
+            <ul className='nav-profile'>
+                <li className='nav-item'> 
+                    <Link to='/NewPost' className='nav-links' onClick={closeMobileMenu}>
+                        Sign Up
                     </Link>
                 </li>  
             </ul>
