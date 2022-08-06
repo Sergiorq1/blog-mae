@@ -1,3 +1,35 @@
-.footer-container{
+.container-footer {
     background-color: black;
+}
+
+.footer-text > h3 {
+    color: white;
+    display: flex;
+    justify-content: center;
+    font-size:large;
+    font-weight: bold;
+}
+
+.footer-text > p {
+    color: white;
+    display: flex;
+    justify-content: center;
+    font-size: smaller;
+    margin-bottom: 0cm;
+}
+
+.footer-logo{
+    font-size: 1rem;
+    margin-top: -2rem;
+    height:10em;
+}
+.text-footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.col
+.footer-text > row {
+    display: flex;
+    justify-content: center;
 }

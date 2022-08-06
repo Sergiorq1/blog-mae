@@ -32,6 +32,16 @@
     justify-content: center;
 }
 
+.btn-primary {
+    margin-top: 30px !important;
+    background-color: #EDBC9B !important;
+    --bs-btn-color: black !important;
+    border: 0em !important;
+    height: 3em;
+    display: flex ;
+    justify-content: center ;
+}
+
 @media screen and (max-width: 960px) {
     .row > h1 {
         font-size: 70px;
@@ -48,5 +58,8 @@
     .row > p {
         margin-top: 100px;
         font-size: 30px;
+    }
+    .container-fluid{
+        height: 100vh;
     }
 }
